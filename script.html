@@ -1,0 +1,44 @@
+<head>
+	<style type="text/css">
+	   body {
+        font-size: 22px;
+       }
+       .container {
+        padding: 15px;
+       }
+       .inner_block {
+        width: 215px;
+        height: 150px;
+        border-width: 1px;
+       }
+	</style>
+</head>
+<body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js">
+	function isNumber(n) {
+	return !isNaN(parseFloat(n)) && isFinite(n);
+	}
+ 
+	function parsing_array(array) {
+		var elements_array = [];
+		var curr_element;
+		for (var i = 0; i < array.length; i++) {
+			curr_element = array[i];
+			if (isNumber(curr_element)) {
+				console.log("number " + curr_element);
+			}
+			else if() {				
+				console.log(" " + curr_element);
+			}
+			else
+
+		}
+	}
+
+	$(document).ready(function(){
+
+
+	})
+
+	</script>
+</body>
